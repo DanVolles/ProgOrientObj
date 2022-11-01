@@ -50,7 +50,7 @@ public class Caneta {
                 '}';
     }
 
-    public void printStatus(){
+    public void printStatusCaneta (){
         System.out.println(toString());
      // System.out.println(this); // outra forma de chamar o método
     }
