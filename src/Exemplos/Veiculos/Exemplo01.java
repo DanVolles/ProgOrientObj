@@ -1,12 +1,12 @@
-package Atividade01;
+package Exemplos.Veiculos;
 
-public class CarroAplicacao {
+public class Exemplo01 {
 
     public static void main(String[] args) {
 
         Carro carro1 = new Carro("FIAT", "Palio");
 
-        carro1.printStatusCarro();
+        carro1.printStatus();
 
         // Acelerar
         carro1.acelerar(20);
@@ -15,7 +15,7 @@ public class CarroAplicacao {
         carro1.acelerar(1);
 
         // printStatus
-        carro1.printStatusCarro();
+        carro1.printStatus();
 
         // Frear
         carro1.frear(100);
@@ -23,6 +23,11 @@ public class CarroAplicacao {
         carro1.frear(45);
 
         // printStatus
-        carro1.printStatusCarro();
+        carro1.printStatus();
+
+        System.out.println(carro1.getMarca());
+        // carro1.setMarca("Nova Marca");
+        System.out.println(carro1.getModelo());
+        System.out.println(carro1.getVelocidade());
     }
 }

@@ -1,4 +1,4 @@
-package Exemplos;
+package Exemplos.Caneta;
 
 public class Caneta {
     private String modelo;

@@ -1,4 +1,4 @@
-package Exemplos;
+package Exemplos.Caneta;
 
 public class Exemplo00 {
     public static void main(String[] args) {

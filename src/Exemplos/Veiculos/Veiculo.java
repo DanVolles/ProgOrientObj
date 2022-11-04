@@ -1,18 +1,15 @@
-package Atividade01;
+package Exemplos.Veiculos;
 
-public class Carro {
+public class Veiculo {
 
 // Atributos
-        private String marca;
-        private String modelo;
-        private int velocidade;
+        protected String marca;
+        protected String modelo;
+        protected int velocidade;
 
-// Método construtor para informar Marca e Modelo
-        Carro (String marca, String modelo) {
-            this.marca = marca;
-            this.modelo = modelo;
-            velocidade = 0;
-        }
+    public void buzinar () {
+        System.out.println("Fom fom");
+    }
 
 // Método para acelerar
         public void acelerar (int a) {
@@ -41,7 +38,7 @@ public class Carro {
 // Método toString
         @Override
         public String toString() {
-            return "Carro {" +
+            return "Veículo {" +
                     "marca='" + marca + '\'' +
                     ", modelo='" + modelo + '\'' +
                     ", velocidade=" + velocidade +
@@ -49,7 +46,7 @@ public class Carro {
         }
 
 // Método printStatus
-        public void printStatusCarro () {
+        public void printStatus () {
             System.out.println(toString());
         }
 
